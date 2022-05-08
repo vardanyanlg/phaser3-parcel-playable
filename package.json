@@ -1,0 +1,21 @@
+{
+  "name": "parcel-yarn3",
+  "source": "src/index.html",
+  "scripts": {
+    "watch": "parcel -p 8000 --open",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@parcel/optimizer-data-url": "^2.5.0",
+    "@parcel/transformer-inline-string": "^2.5.0",
+    "@parcel/utils": "^2.5.0",
+    "parcel": "^2.5.0",
+    "sharp": "^0.29.3"
+  },
+  "dependencies": {
+    "lmdb": "^2.3.10",
+    "phaser": "latest"
+  },
+  "packageManager": "yarn@3.2.0"
+}
