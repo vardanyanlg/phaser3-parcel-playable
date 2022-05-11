@@ -23,37 +23,27 @@ cd phaser3-parcel-playable
 ```
 Now you need to install all the necessary dependencies for the project to work:
 ```bash
-yarn install
-```
-or
-```bash
-npm install
+`yarn install` or `npm install`
 ```
 
 Everything is ready to start the project.
 For local testing use (localhost:8000 will open auto in browser)
 ```bash
-yarn watch
-```
-or
-```bash
-npm run watch
+`yarn watch` or `npm run watch`
 ```
 
 To build the final file use
 ```bash
-yarn build
-```
-or
-```bash
-npm run build
+`yarn build` or `npm run build`
 ```
 The finished `index.html` file is waiting for you in the `dist` folder
 
-## Load Resource
+## Assets Loading
 Resource loading is declared in `js/PreloaderScene.js`
 
+### Load Audio
 Use the `this.addAudio("custom_name",dataURI)` function to load sounds. You need to put the data URI encoded in advance by yourself.
 
+### Load Image
 Use `this.addTexture("custom_name", filenameCustom)` function to load images and also import the file in your directory beforehand
 `import filenameCustom from 'data-url:../img/filename.png'`
