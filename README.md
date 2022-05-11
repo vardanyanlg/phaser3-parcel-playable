@@ -1,3 +1,4 @@
+![phaser3-parcel-playable-logo](https://raw.githubusercontent.com/vardanyanlg/phaser3-parcel-playable/283cb29a85d7be8d0353e9f2b5041cba6f8019ae/src/img/logo.png)
 # Playable Ads in one file
 ## Phaser 3 + Parcel 2 with auto base64 image decode
 > A Phaser 3 project template for JavaScript (ES6 support via Babel) and Parcel 2.5 that includes local server with  hot-reloading for development and production builds in one file with images on base64.
