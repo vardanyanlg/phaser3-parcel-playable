@@ -3,6 +3,8 @@
 ## Phaser 3 + Parcel 2 with auto base64 image decode
 > A Phaser 3 project template for JavaScript (ES6 support via Babel) and Parcel 2.5 that includes local server with  hot-reloading for development and production builds in one file with images on base64.
 
+You can also try [Phaser Webpack Template](https://github.com/vardanyanlg/phaser3-webpack-playable "Phaser 3 Playable Ads") or [Pixi Webpack Template](https://github.com/vardanyanlg/pixi-webpack-playable "Pixi Playable Ads")
+
 ### Features
 - The project is assembled into one file and is ready for any ad networks.
 - Final build with minification and code optimization
