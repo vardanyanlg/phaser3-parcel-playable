@@ -55,5 +55,5 @@ Use the `this.addAudio("custom_name",dataURI)` function to load sounds. You need
 Use `this.addTexture("custom_name", filenameCustom)` function to load images and also import the file in your directory beforehand
 `import filenameCustom from 'data-url:../img/filename.png'`
 
-
+#### Use Yarn Plug'n'Play
 If you're using Yarn and want to use Plug'n'Play to get rid of the "node_modules" folder, type `yarn set version berry` to force a version update and then run `yarn install` to remove the extra stuff and build links.
